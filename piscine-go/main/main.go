@@ -6,7 +6,6 @@ import (
 )
 
 func main() {
-	n := 0
-	piscine.PointOne(&n)
-	fmt.Println(n)
+	fmt.Println(piscine.IsNumeric("010203"))
+	fmt.Println(piscine.IsNumeric("01,02,03"))
 }
